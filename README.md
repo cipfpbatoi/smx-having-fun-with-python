@@ -1,6 +1,12 @@
-# Introducció
+# ☕ Introducció
 
 Aquest projecte es una proposta de python orientada a la gestió de xarxa que has estat desenvolupant durant el curs de primer.
+
+Es basa en els continguts impartits a classe de Python i es complementa amb el vídeo de Mosh d'Introducció a Python que podeu subtitular en castella en Youtube
+
+{% embed url="https://www.youtube.com/watch?v=K5KVEU3aaeQ" %}
+Vídeo de Mosh d'introducció a Pyhon
+{% endembed %}
 
 ### Objectius clau que es pretenen
 
