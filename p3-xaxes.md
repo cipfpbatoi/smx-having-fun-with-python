@@ -32,7 +32,7 @@ else:
     print(f"La IP {ip} NO respon.")
 ```
 
-### xercici 1
+### ✅ Exercici 1
 
 1. Copia el codi anterior i prova amb diferents IPs (per exemple: `127.0.0.1`, `192.168.0.1`, `8.8.8.8`, etc).
 2. Millora la funció perquè escriga en un fitxer els resultats (`activa` o `no respon`).
@@ -46,11 +46,7 @@ Ara volem que el programa accepte una IP amb CIDR com `192.168.1.0/24` i prove d
 
 ### 💡 Exemple de com fer-ho
 
-```
-python
-
-
-CopiaModifica
+```python
 def obtenir_ips(cidr):
     base = cidr.split('/')[0]
     parts = base.split('.')

@@ -43,16 +43,12 @@ print("Memòria RAM total:", round(psutil.virtual_memory().total / (1024**3), 2)
 1. **Executa el codi d’exemple i interpreta el resultat.**
 2. **Modifica el programa perquè guarde tota la informació en un fitxer de text.**
 3. **Mostra també l’espai disponible al disc dur.**
-4. **(Opcional)** Afig al final del fitxer la data i l’hora en què s’ha executat el programa (`from datetime import datetime`).
+4. **(Opcional)** Afegeix al final del fitxer la data i l’hora en què s’ha executat el programa (`from datetime import datetime`).
 
 ## 💡 Pista per a guardar en un fitxer
 
-```
-python
-
-
-CopiaModifica
-with open("info_sistema.txt", "w") as f:
+```python
+CopiaModificwith open("info_sistema.txt", "w") as f:
     f.write("Sistema operatiu: " + platform.system() + "\n")
     # escriu més línies...
 ```
